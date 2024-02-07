@@ -35,7 +35,7 @@ const Text = () => {
         });
       })
       .catch((err) => {
-        console.error("Error copying text:", err);
+        toast.error("Error copying text: ", err);
       });
   };
 
