@@ -40,11 +40,11 @@ const Text = () => {
   };
 
   return (
-    <div className="grid justify-items-start md:justify-items-center">
+    <div className="grid justify-items-start md:justify-items-center px-10">
       <Toaster position="top-center" reverseOrder={true} />
       {data.length > 0 ? (
         data.map((item) => (
-          <Card key={item.id} className="mt-6 w-[500px]">
+          <Card key={item.id} className="mt-6 w-full">
             <CardBody className="flex flex-row justify-between">
               <Typography>{item}</Typography>
               <MdOutlineContentCopy

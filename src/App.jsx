@@ -4,7 +4,7 @@ import Text from "./components/Text";
 
 const App = () => {
   return (
-    <div className="bg-white p-4 rounded-md shadow-md max-w-[620px] mx-auto lg:max-w-[800px]">
+    <div className="bg-white p-4 rounded-md shadow-md mx-auto md:max-w-[620px] lg:max-w-[620px]">
       <Navbars />
       <Text />
     </div>
